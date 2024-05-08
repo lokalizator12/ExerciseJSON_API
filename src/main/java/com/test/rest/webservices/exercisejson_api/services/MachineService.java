@@ -27,7 +27,7 @@ public class MachineService {
             public int compare(Hmc o1, Hmc o2) {
                 Integer x1 = o1.getX();
                 Integer x2 = o2.getX();
-                return x2.compareTo(x1);
+                return x1.compareTo(x2);
             }
         });
         hmcs.forEach(System.out::println);
